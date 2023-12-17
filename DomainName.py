@@ -1,0 +1,7 @@
+print("Domain Name Extension")
+str= input("Enter Your Email : ")
+(useName , domain) =str.split("@")
+(domain ,extension) = domain.split(".")
+print("User Name  :", useName)
+print("Domain : ",domain )
+print("Extension :" , extension)
